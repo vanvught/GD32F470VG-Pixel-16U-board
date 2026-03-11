@@ -221,14 +221,14 @@ V1.0 2024</text>
 <text x="51.435" y="17.145" size="0.6604" layer="25" font="vector" align="center">O11</text>
 <text x="48.895" y="17.145" size="0.6604" layer="25" font="vector" align="center">O10</text>
 <text x="46.355" y="17.145" size="0.6604" layer="25" font="vector" align="center">O9</text>
-<text x="36.195" y="17.145" size="0.6604" layer="25" font="vector" align="center">O1</text>
-<text x="33.655" y="17.145" size="0.6604" layer="25" font="vector" align="center">O2</text>
-<text x="31.115" y="17.145" size="0.6604" layer="25" font="vector" align="center">O3</text>
-<text x="28.575" y="17.145" size="0.6604" layer="25" font="vector" align="center">O4</text>
-<text x="18.415" y="17.145" size="0.6604" layer="25" font="vector" align="center">O5</text>
-<text x="15.875" y="17.145" size="0.6604" layer="25" font="vector" align="center">O6</text>
-<text x="13.335" y="17.145" size="0.6604" layer="25" font="vector" align="center">O7</text>
-<text x="10.795" y="17.145" size="0.6604" layer="25" font="vector" align="center">O8</text>
+<text x="10.795" y="17.145" size="0.6604" layer="25" font="vector" align="center">O1</text>
+<text x="13.335" y="17.145" size="0.6604" layer="25" font="vector" align="center">O2</text>
+<text x="18.415" y="17.145" size="0.6604" layer="25" font="vector" align="center">O3</text>
+<text x="15.875" y="17.145" size="0.6604" layer="25" font="vector" align="center">O4</text>
+<text x="28.575" y="17.145" size="0.6604" layer="25" font="vector" align="center">O5</text>
+<text x="31.115" y="17.145" size="0.6604" layer="25" font="vector" align="center">O6</text>
+<text x="33.655" y="17.145" size="0.6604" layer="25" font="vector" align="center">O7</text>
+<text x="36.195" y="17.145" size="0.6604" layer="25" font="vector" align="center">O8</text>
 <text x="61.595" y="17.145" size="0.6604" layer="25" font="vector" align="center">GND</text>
 <text x="58.42" y="15.24" size="0.6604" layer="25" font="vector" align="center">CLK</text>
 <text x="58.42" y="12.7" size="0.6604" layer="25" font="vector" align="center">DATA</text>
@@ -1853,7 +1853,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="1X03" urn="urn:adsk.eagle:footprint:37678/1" library_version="1">
+<package name="1X03" urn="urn:adsk.eagle:footprint:37678/2" library_version="2">
 <description>&lt;h3&gt;Plated Through Hole - 3 Pin&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:3&lt;/li&gt;
@@ -1890,43 +1890,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
-<package name="USB-A-S-SILK-FEMALE" urn="urn:adsk.eagle:footprint:37979/1" library_version="1">
-<description>&lt;h3&gt;USB Type 'A' Female Connector - SMT Silk Outline&lt;/h3&gt;
-Shield pins may be grounded.
-&lt;br&gt; tDocu shows plug end. 
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:6&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=” https://www.sparkfun.com/datasheets/Prototyping/Connectors/USBFemaleTypeA.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;USB_A&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="6.6957" y1="6.5659" x2="-7.287" y2="6.5659" width="0.127" layer="51"/>
-<wire x1="6.6957" y1="-6.5659" x2="-7.287" y2="-6.5659" width="0.127" layer="51"/>
-<wire x1="-7.287" y1="6.477" x2="-7.287" y2="-6.477" width="0.127" layer="51"/>
-<wire x1="6.7084" y1="6.5024" x2="6.7084" y2="-6.5024" width="0.127" layer="51"/>
-<wire x1="0.46" y1="-5.08" x2="-5.89" y2="-4.445" width="0.127" layer="51"/>
-<wire x1="-5.89" y1="-4.445" x2="-5.89" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="-5.89" y1="-1.27" x2="0.46" y2="-0.635" width="0.127" layer="51"/>
-<wire x1="0.46" y1="5.08" x2="-5.89" y2="4.445" width="0.127" layer="51"/>
-<wire x1="-5.89" y1="4.445" x2="-5.89" y2="1.27" width="0.127" layer="51"/>
-<wire x1="-5.89" y1="1.27" x2="0.46" y2="0.635" width="0.127" layer="51"/>
-<wire x1="-7.366" y1="6.604" x2="0.508" y2="6.604" width="0.2032" layer="21"/>
-<wire x1="-7.366" y1="6.604" x2="-7.366" y2="-6.604" width="0.2032" layer="21"/>
-<wire x1="-7.366" y1="-6.604" x2="0.508" y2="-6.604" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="-6.604" x2="6.858" y2="-6.604" width="0.2032" layer="21"/>
-<wire x1="6.858" y1="-6.604" x2="6.858" y2="-4.318" width="0.2032" layer="21"/>
-<wire x1="6.858" y1="4.318" x2="6.858" y2="6.604" width="0.2032" layer="21"/>
-<wire x1="6.858" y1="6.604" x2="5.08" y2="6.604" width="0.2032" layer="21"/>
-<pad name="SHLD1" x="3" y="-6.5659" drill="2.3114" rot="R270"/>
-<pad name="SHLD2" x="3" y="6.5659" drill="2.3114" rot="R270"/>
-<smd name="D-" x="7.212" y="1" dx="3" dy="0.9" layer="1"/>
-<smd name="VBUS" x="7.212" y="3.5" dx="3" dy="0.9" layer="1"/>
-<smd name="D+" x="7.212" y="-1" dx="3" dy="0.9" layer="1"/>
-<smd name="GND" x="7.212" y="-3.5" dx="3" dy="0.9" layer="1"/>
-<text x="-6.35" y="6.858" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-6.35" y="-6.858" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
 <package name="1X05" urn="urn:adsk.eagle:footprint:37722/2" library_version="2">
 <description>&lt;h3&gt;Plated Through Hole - 5 Pin&lt;/h3&gt;
@@ -1984,32 +1947,17 @@ Shield pins may be grounded.
 </package>
 </packages>
 <packages3d>
-<package3d name="1X03" urn="urn:adsk.eagle:package:38063/1" type="box" library_version="1">
-<description>Plated Through Hole - 3 Pin
-Specifications:
-Pin count:3
-Pin pitch:0.1"
-
-Example device(s):
-CONN_03
-</description>
+<package3d name="1X03" urn="urn:adsk.eagle:package:38063/2" type="box" library_version="2">
+<description>&lt;h3&gt;Plated Through Hole - 3 Pin&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:3&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_03&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="1X03"/>
-</packageinstances>
-</package3d>
-<package3d name="USB-A-S-SILK-FEMALE" urn="urn:adsk.eagle:package:38297/1" type="box" library_version="1">
-<description>USB Type 'A' Female Connector - SMT Silk Outline
-Shield pins may be grounded.
- tDocu shows plug end. 
-Specifications:
-Pin count:6
-
-Datasheet referenced for footprint
-Example device(s):
-USB_A
-</description>
-<packageinstances>
-<packageinstance name="USB-A-S-SILK-FEMALE"/>
 </packageinstances>
 </package3d>
 <package3d name="1X05" urn="urn:adsk.eagle:package:38104/2" type="box" library_version="2">
@@ -2511,7 +2459,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SO08-EIAJ" urn="urn:adsk.eagle:footprint:38834/1" library_version="1">
+<package name="SO08-EIAJ" urn="urn:adsk.eagle:footprint:38834/2" library_version="2">
 <description>Fits EIAJ packages (wide version of the SOIC-8).</description>
 <wire x1="-2.362" y1="-2.565" x2="2.362" y2="-2.565" width="0.1524" layer="51"/>
 <wire x1="2.362" y1="-2.565" x2="2.362" y2="2.5396" width="0.2032" layer="21"/>
@@ -2544,7 +2492,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <packages3d>
-<package3d name="SO08-EIAJ" urn="urn:adsk.eagle:package:38842/1" type="box" library_version="1">
+<package3d name="SO08-EIAJ" urn="urn:adsk.eagle:package:38842/2" type="box" library_version="2">
 <description>Fits EIAJ packages (wide version of the SOIC-8).</description>
 <packageinstances>
 <packageinstance name="SO08-EIAJ"/>
@@ -3619,6 +3567,54 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package>
 </packages>
 </library>
+<library name="GD32F">
+<packages>
+<package name="USB-A" urn="urn:adsk.eagle:footprint:37979/2" locally_modified="yes">
+<wire x1="6.6957" y1="6.5659" x2="-3.1595" y2="6.5659" width="0.127" layer="51"/>
+<wire x1="6.6957" y1="-6.5659" x2="-3.1595" y2="-6.5659" width="0.127" layer="51"/>
+<wire x1="-3.1595" y1="6.477" x2="-3.1595" y2="-6.477" width="0.127" layer="51"/>
+<wire x1="6.7084" y1="6.5024" x2="6.7084" y2="-6.5024" width="0.127" layer="51"/>
+<wire x1="4.5875" y1="-5.08" x2="-1.7625" y2="-4.445" width="0.127" layer="51"/>
+<wire x1="-1.7625" y1="-4.445" x2="-1.7625" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="-1.7625" y1="-1.27" x2="4.5875" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="4.5875" y1="5.08" x2="-1.7625" y2="4.445" width="0.127" layer="51"/>
+<wire x1="-1.7625" y1="4.445" x2="-1.7625" y2="1.27" width="0.127" layer="51"/>
+<wire x1="-1.7625" y1="1.27" x2="4.5875" y2="0.635" width="0.127" layer="51"/>
+<wire x1="-3.2385" y1="6.604" x2="4.6355" y2="6.604" width="0.2032" layer="21"/>
+<wire x1="-3.2385" y1="6.604" x2="-3.2385" y2="-6.604" width="0.2032" layer="21"/>
+<wire x1="-3.2385" y1="-6.604" x2="4.6355" y2="-6.604" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="-6.604" x2="6.858" y2="-6.604" width="0.2032" layer="21"/>
+<wire x1="6.858" y1="-6.604" x2="6.858" y2="-4.318" width="0.2032" layer="21"/>
+<wire x1="6.858" y1="4.318" x2="6.858" y2="6.604" width="0.2032" layer="21"/>
+<wire x1="6.858" y1="6.604" x2="5.08" y2="6.604" width="0.2032" layer="21"/>
+<pad name="SHLD1" x="-0.4925" y="-6.5659" drill="1.778" rot="R270"/>
+<pad name="SHLD2" x="-0.4925" y="6.5659" drill="1.778" rot="R270"/>
+<smd name="D-" x="7.212" y="1" dx="3" dy="0.9" layer="1"/>
+<smd name="VBUS" x="7.212" y="3.5" dx="3" dy="0.9" layer="1"/>
+<smd name="D+" x="7.212" y="-1" dx="3" dy="0.9" layer="1"/>
+<smd name="GND" x="7.212" y="-3.5" dx="3" dy="0.9" layer="1"/>
+<text x="-2.2225" y="6.858" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-2.2225" y="-6.858" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="USB-A-S-SILK-FEMALE" urn="urn:adsk.eagle:package:38297/2" type="box">
+<description>&lt;h3&gt;USB Type 'A' Female Connector - SMT Silk Outline&lt;/h3&gt;
+Shield pins may be grounded.
+&lt;br&gt; tDocu shows plug end. 
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:6&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=” https://www.sparkfun.com/datasheets/Prototyping/Connectors/USBFemaleTypeA.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;USB_A&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="USB-A"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3834,9 +3830,10 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="48.5775" y="45.085" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="90.17" y="58.42" size="0.6096" layer="28" align="center"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="BOOT0" x="60.96" y="77.47" smashed="yes">
+<element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/2" value="455-1750-1-ND" x="60.96" y="77.47" smashed="yes">
 <attribute name="NAME" x="89.2175" y="63.9445" size="0.6096" layer="25" font="vector" align="center"/>
-<attribute name="VALUE" x="63.5" y="75.438" size="0.6096" layer="25" font="vector" align="center"/>
+<attribute name="PROD_ID" value="XXX-00000" x="60.96" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="455-1750-1-ND" x="63.5" y="75.438" size="0.6096" layer="25" font="vector" align="center"/>
 </element>
 <element name="SW2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="EVQ-Q2" package3d_urn="urn:adsk.eagle:package:6240643/1" value="BOOT0" x="26.3525" y="74.93" smashed="yes" rot="R180">
 <attribute name="JLCPCB" value="C221880" x="37.7825" y="78.74" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4308,7 +4305,7 @@ design rules under a new name.</description>
 </element>
 <element name="U1" library="AMS1117-3.3" package="SOT229P700X180-4N" value="AMS1117-3.3" x="13.0175" y="41.91" smashed="yes">
 <attribute name="DESCRIPTION" value="Fixed 15V 3.3V 1.3V @ 800mA SOT-223 Dropout Regulators(LDO) RoHS" x="13.0175" y="41.91" size="1.778" layer="27" display="off"/>
-<attribute name="JLCPCB_PART_NUMBER" value="C6186" x="13.0175" y="41.91" size="1.778" layer="27" display="off"/>
+<attribute name="JLCPCB" value="C6186" x="13.0175" y="41.91" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Advanced Monolithic Systems" x="13.0175" y="41.91" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="AMS1117-3.3" x="13.0175" y="41.91" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="89.3364" y="51.808840625" size="0.6096" layer="25" font="vector" align="center"/>
@@ -4459,7 +4456,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-8.6487" y="20.8788" size="0.6096" layer="26" ratio="10"/>
 <attribute name="VALUE" x="6.985" y="12.3825" size="0.6096" layer="28"/>
 </element>
-<element name="U3" library="SparkFun-IC-Memory" library_urn="urn:adsk.eagle:library:524" package="SO08-EIAJ" package3d_urn="urn:adsk.eagle:package:38842/1" value="W25Q128JVSIQ" x="51.7525" y="71.12" smashed="yes" rot="R90">
+<element name="U3" library="SparkFun-IC-Memory" library_urn="urn:adsk.eagle:library:524" package="SO08-EIAJ" package3d_urn="urn:adsk.eagle:package:38842/2" value="25F32006WSOI" x="51.7525" y="71.12" smashed="yes" rot="R90">
 <attribute name="JLCPCB" value="C97521" x="40.3225" y="62.23" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="84.7725" y="70.485" size="0.6096" layer="25" font="vector" rot="R180" align="center"/>
 <attribute name="PROD_ID" value="IC-09109" x="40.3225" y="62.23" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4496,24 +4493,17 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="3" x="52.3875" y="56.1975" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="26.8539" y="64.4437" size="0.6096" layer="27" rot="R180" align="center"/>
 </element>
-<element name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="USB-A-S-SILK-FEMALE" package3d_urn="urn:adsk.eagle:package:38297/1" value="USB_A_SMT_FEMALE" x="74.295" y="36.5125" smashed="yes" rot="R180">
-<attribute name="JLCPCB" value="C42637" x="92.075" y="18.7325" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="80.645" y="29.6545" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
-<attribute name="PROD_ID" value="CONN-09520" x="92.075" y="18.7325" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SF_ID" value="PRT-09011" x="92.075" y="18.7325" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="80.645" y="43.3705" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-left"/>
+<element name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="22" x="63.1825" y="37.465" smashed="yes" rot="R180">
+<attribute name="NAME" x="61.2775" y="37.465" size="0.6096" layer="25" font="vector" rot="R180" align="center"/>
+<attribute name="POPULARITY" value="0" x="84.7725" y="14.605" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="84.7725" y="14.605" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="87.63" y="68.2625" size="0.6096" layer="27" rot="R180" align="center"/>
 </element>
-<element name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="22" x="63.1825" y="37.7825" smashed="yes" rot="R180">
-<attribute name="NAME" x="61.2775" y="37.7825" size="0.6096" layer="25" font="vector" rot="R180" align="center"/>
-<attribute name="POPULARITY" value="0" x="84.7725" y="14.9225" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="84.7725" y="14.9225" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="87.63" y="68.58" size="0.6096" layer="27" rot="R180" align="center"/>
-</element>
-<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="22" x="63.1825" y="36.5125" smashed="yes" rot="R180">
-<attribute name="NAME" x="61.2775" y="36.5125" size="0.6096" layer="25" font="vector" rot="R180" align="center"/>
-<attribute name="POPULARITY" value="0" x="79.6925" y="18.7325" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="79.6925" y="18.7325" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="86.36" y="68.58" size="0.6096" layer="27" rot="R180" align="center"/>
+<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="22" x="63.1825" y="35.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="61.2775" y="35.56" size="0.6096" layer="25" font="vector" rot="R180" align="center"/>
+<attribute name="POPULARITY" value="0" x="79.6925" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="79.6925" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="86.36" y="67.6275" size="0.6096" layer="27" rot="R180" align="center"/>
 </element>
 <element name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4700pF/50V" x="67.945" y="45.085" smashed="yes" rot="R180">
 <attribute name="NAME" x="65.405" y="45.085" size="0.6096" layer="25" font="vector" rot="R180" align="center"/>
@@ -4565,6 +4555,11 @@ design rules under a new name.</description>
 <element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X05" package3d_urn="urn:adsk.eagle:package:38104/2" value="I2C+INT" x="57.15" y="77.47" smashed="yes" rot="R180">
 <attribute name="NAME" x="88.9" y="65.278" size="0.6096" layer="25" font="vector" rot="R180" align="center"/>
 <attribute name="VALUE" x="56.8325" y="75.3745" size="0.6096" layer="27" font="vector" rot="R180" align="center"/>
+</element>
+<element name="J3" library="GD32F" package="USB-A" package3d_urn="urn:adsk.eagle:package:38297/2" value="USB_A_SMT_FEMALE" x="77.7875" y="36.5125" smashed="yes" rot="R180">
+<attribute name="JLCPCB" value="C668591" x="77.7875" y="36.5125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="80.01" y="29.6545" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="VALUE" x="80.01" y="43.3705" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-left"/>
 </element>
 </elements>
 <signals>
@@ -4662,7 +4657,6 @@ design rules under a new name.</description>
 <contactref element="U3" pad="4"/>
 <contactref element="C1" pad="1"/>
 <contactref element="C2" pad="1"/>
-<contactref element="J3" pad="GND"/>
 <contactref element="C13" pad="2"/>
 <contactref element="R10" pad="1"/>
 <via x="37.1475" y="62.23" extent="1-16" drill="0.35"/>
@@ -4685,6 +4679,7 @@ design rules under a new name.</description>
 <via x="46.0375" y="50.8" extent="1-16" drill="0.35"/>
 <via x="45.085" y="67.6275" extent="1-16" drill="0.35"/>
 <contactref element="J2" pad="1"/>
+<contactref element="J3" pad="GND"/>
 </signal>
 <signal name="+3V3">
 <contactref element="SW2" pad="A"/>
@@ -4941,15 +4936,12 @@ design rules under a new name.</description>
 <wire x1="14.505" y1="32.065" x2="14.605" y2="31.965" width="0.4064" layer="1"/>
 <wire x1="15.345" y1="35.2425" x2="15.345" y2="32.07" width="0.4064" layer="1"/>
 <wire x1="15.345" y1="32.07" x2="15.24" y2="31.965" width="0.4064" layer="1"/>
-<contactref element="J3" pad="VBUS"/>
 <wire x1="18.0975" y1="32.0675" x2="19.05" y2="33.02" width="0.4064" layer="16"/>
 <wire x1="19.05" y1="33.02" x2="26.67" y2="33.02" width="0.4064" layer="16"/>
 <via x="64.77" y="33.02" extent="1-16" drill="0.35"/>
 <wire x1="26.67" y1="33.02" x2="38.1" y2="33.02" width="0.4064" layer="16"/>
 <wire x1="38.1" y1="33.02" x2="49.53" y2="33.02" width="0.4064" layer="16"/>
 <wire x1="49.53" y1="33.02" x2="64.77" y2="33.02" width="0.4064" layer="16"/>
-<wire x1="64.77" y1="33.02" x2="67.0755" y2="33.02" width="0.4064" layer="1"/>
-<wire x1="67.0755" y1="33.02" x2="67.083" y2="33.0125" width="0.4064" layer="1"/>
 <wire x1="25.785" y1="32.0294" x2="26.67" y2="32.0294" width="0.3048" layer="1"/>
 <wire x1="26.67" y1="32.0294" x2="27.8756" y2="32.0294" width="0.3048" layer="1"/>
 <wire x1="27.8756" y1="32.0294" x2="27.94" y2="31.965" width="0.3048" layer="1"/>
@@ -4967,6 +4959,9 @@ design rules under a new name.</description>
 <via x="49.53" y="33.02" extent="1-16" drill="0.35"/>
 <contactref element="C3" pad="+"/>
 <wire x1="64.77" y1="33.02" x2="62.97" y2="33.02" width="0.4064" layer="1"/>
+<contactref element="J3" pad="VBUS"/>
+<wire x1="64.77" y1="33.02" x2="70.568" y2="33.02" width="0.4064" layer="1"/>
+<wire x1="70.568" y1="33.02" x2="70.5755" y2="33.0125" width="0.4064" layer="1"/>
 </signal>
 <signal name="PA11">
 <contactref element="U2" pad="70"/>
@@ -4977,17 +4972,20 @@ design rules under a new name.</description>
 <via x="49.53" y="59.055" extent="1-16" drill="0.35"/>
 <wire x1="49.53" y1="59.055" x2="49.855" y2="59.38" width="0.2032" layer="1"/>
 <wire x1="49.855" y1="59.38" x2="50.9" y2="59.38" width="0.2032" layer="1"/>
-<wire x1="62.6825" y1="36.5125" x2="48.26" y2="50.935" width="0.2032" layer="1"/>
-<wire x1="48.26" y1="50.935" x2="48.26" y2="57.4675" width="0.2032" layer="1"/>
+<wire x1="62.6825" y1="35.56" x2="62.0475" y2="35.56" width="0.1524" layer="1"/>
+<wire x1="62.0475" y1="35.56" x2="61.6236" y2="35.9839" width="0.1524" layer="1"/>
+<wire x1="48.26" y1="50.70565" x2="48.26" y2="57.4675" width="0.1524" layer="1"/>
+<wire x1="61.6236" y1="35.9839" x2="61.6236" y2="37.34205" width="0.1524" layer="1"/>
+<wire x1="61.6236" y1="37.34205" x2="48.26" y2="50.70565" width="0.1524" layer="1"/>
 </signal>
 <signal name="PA12">
 <contactref element="U2" pad="71"/>
 <contactref element="R7" pad="2"/>
 <wire x1="48.8978" y1="59.31686875" x2="49.46093125" y2="59.88" width="0.2032" layer="1"/>
 <wire x1="49.46093125" y1="59.88" x2="50.9" y2="59.88" width="0.2032" layer="1"/>
-<wire x1="62.6825" y1="37.7825" x2="62.0382875" y2="37.7825" width="0.2032" layer="1"/>
-<wire x1="62.0382875" y1="37.7825" x2="48.8978" y2="50.9229875" width="0.2032" layer="1"/>
-<wire x1="48.8978" y1="50.9229875" x2="48.8978" y2="59.31686875" width="0.2032" layer="1"/>
+<wire x1="62.3557875" y1="37.465" x2="62.6825" y2="37.465" width="0.2032" layer="1"/>
+<wire x1="48.8978" y1="59.31686875" x2="48.8978" y2="50.9229875" width="0.2032" layer="1"/>
+<wire x1="48.8978" y1="50.9229875" x2="62.3557875" y2="37.465" width="0.1524" layer="1"/>
 </signal>
 <signal name="RMII_REF_CLK">
 <contactref element="U2" pad="24"/>
@@ -5849,26 +5847,14 @@ design rules under a new name.</description>
 <signal name="N$20">
 <contactref element="R6" pad="1"/>
 <contactref element="J3" pad="D-"/>
-<wire x1="67.083" y1="35.5125" x2="65.3175" y2="35.5125" width="0.2032" layer="1"/>
-<wire x1="65.3175" y1="35.5125" x2="64.3175" y2="36.5125" width="0.2032" layer="1"/>
-<wire x1="64.3175" y1="36.5125" x2="63.6825" y2="36.5125" width="0.2032" layer="1"/>
+<wire x1="70.5755" y1="35.5125" x2="63.73" y2="35.5125" width="0.1524" layer="1"/>
+<wire x1="63.73" y1="35.5125" x2="63.6825" y2="35.56" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$47">
 <contactref element="R7" pad="1"/>
 <contactref element="J3" pad="D+"/>
-<wire x1="67.083" y1="37.5125" x2="64.5875" y2="37.5125" width="0.2032" layer="1"/>
-<wire x1="64.5875" y1="37.5125" x2="64.3175" y2="37.7825" width="0.2032" layer="1"/>
-<wire x1="64.3175" y1="37.7825" x2="63.6825" y2="37.7825" width="0.2032" layer="1"/>
-</signal>
-<signal name="N$49">
-<contactref element="J3" pad="SHLD2"/>
-<contactref element="J3" pad="SHLD1"/>
-<contactref element="C13" pad="1"/>
-<contactref element="R10" pad="2"/>
-<wire x1="71.295" y1="29.9466" x2="71.295" y2="43.0784" width="0.2032" layer="1"/>
-<wire x1="71.295" y1="43.0784" x2="69.2884" y2="45.085" width="0.2032" layer="1"/>
-<wire x1="69.2884" y1="45.085" x2="68.795" y2="45.085" width="0.2032" layer="1"/>
-<wire x1="68.795" y1="45.085" x2="68.795" y2="47.3075" width="0.2032" layer="1"/>
+<wire x1="63.6825" y1="37.465" x2="63.73" y2="37.5125" width="0.1524" layer="1"/>
+<wire x1="63.73" y1="37.5125" x2="70.5755" y2="37.5125" width="0.1524" layer="1"/>
 </signal>
 <signal name="PHY_INT">
 <contactref element="U2" pad="35"/>
@@ -5961,6 +5947,18 @@ design rules under a new name.</description>
 <wire x1="46.6725" y1="65.9412" x2="47.0888" y2="65.9412" width="0.1524" layer="1"/>
 <wire x1="48.68" y1="63.6" x2="48.68" y2="64.35" width="0.1524" layer="1"/>
 <wire x1="48.68" y1="64.35" x2="47.0888" y2="65.9412" width="0.1524" layer="1"/>
+</signal>
+<signal name="SHLD">
+<contactref element="C13" pad="1"/>
+<contactref element="R10" pad="2"/>
+<wire x1="68.8975" y1="45.085" x2="68.795" y2="45.085" width="0.2032" layer="1"/>
+<wire x1="68.795" y1="45.085" x2="68.795" y2="47.3075" width="0.2032" layer="1"/>
+<wire x1="68.8975" y1="45.085" x2="76.5909" y2="45.085" width="0.4064" layer="1"/>
+<contactref element="J3" pad="SHLD1"/>
+<contactref element="J3" pad="SHLD2"/>
+<wire x1="76.5909" y1="45.085" x2="78.28" y2="43.3959" width="0.4064" layer="1"/>
+<wire x1="78.28" y1="43.3959" x2="78.28" y2="43.0784" width="0.4064" layer="1"/>
+<wire x1="78.28" y1="29.9466" x2="78.28" y2="43.0784" width="0.4064" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
