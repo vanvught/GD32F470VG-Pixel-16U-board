@@ -1,4 +1,6 @@
-#GD32F470 Pixel
+See latest [https://github.com/vanvught/Kicad-GD32F470VG-Pixel-16](https://github.com/vanvught/Kicad-GD32F470VG-Pixel-16)
+
+# Archived
 
 Features: 
 
